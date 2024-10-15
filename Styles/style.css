@@ -92,3 +92,89 @@ cursor: pointer;
     padding: 21px 24px 21px 24px;
     cursor: pointer;
 }
+
+/* why web  */
+.why_web{
+    width: 80%;
+    margin: 50px auto;
+
+}
+.web_content{
+    width: 80%;
+    margin: auto;
+}
+.web_content > h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.web_content > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.why_web .web_flex{
+    padding: 20px;
+}
+.web_flex .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 0;
+    
+
+}
+.card:nth-child(2)>.card_content{
+    margin-left: 5%;
+}
+
+.card h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.card p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 25%;
+    margin-bottom: 10px;
+    opacity: 0.7;
+
+}
+
+.card button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
