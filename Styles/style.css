@@ -213,6 +213,201 @@ cursor: pointer;
     letter-spacing: 0%;
     text-align: center;
 }
+
 .inspriration .video_box video{
     border-radius: 16px;
+    width: 99%;
+    
+}
+
+/* current target  */
+
+.my_target{
+    width: 80%;
+    margin: auto;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_target .target_content{
+    width: 80%;
+    
+}
+.target_content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.target_content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 20px 0;
+}
+
+
+.my_target .target_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+    margin-top: 50px;
+
+}
+
+.target_flex .target_card{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target_card:nth-child(2){
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target_card:nth-child(3){
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
+.target_card h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.target_card p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.target_card a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* support  */
+
+.support{
+    width: 80%;
+    margin: 50px auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background:url(/assets/handshake.jpg);
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   border-radius: 15px;
+}
+.support .support_content{
+    padding: 24px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    
+}
+.support_content h3{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.support_content p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    background-blend-mode: multiply;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+}
+
+.support_flex{
+    width: 100%
+}
+.support_flex input{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 12px 40px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.support_flex button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+footer{
+    width: 80%;
+    margin: auto;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.icon{
+    cursor: pointer;
 }
