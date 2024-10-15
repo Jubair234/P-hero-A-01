@@ -111,6 +111,7 @@ cursor: pointer;
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 24px;
 }
 .web_content > p{
     color: rgb(13, 19, 33);
@@ -177,4 +178,41 @@ cursor: pointer;
     margin-top: 20px;
     cursor: pointer;
 
+}
+
+/* inspire */
+.inspriration{
+    width: 80%;
+    margin: auto;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inspriration .insprie_content{
+    width: 80%;
+    margin-bottom: 50px;
+}
+.inspriration .insprie_content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.inspriration .insprie_content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.inspriration .video_box video{
+    border-radius: 16px;
 }
